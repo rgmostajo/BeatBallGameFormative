@@ -1,0 +1,54 @@
+/*Lecture Notes*/
+
+Add folders in project folder:
+
+Assets
+-- main folder that contains the Assets used in Unity Project.
+-- The contents of the project window in the Editor. Correspond directly to the content of the Assets folder.
+-Scripts folder
+-Materials folder 
+
+Gizmos
+- Allow users to add graphics to the scene view to help use visualize design details that are otherwise invisible.
+
+Camera Projection:
+- Perspective 
+    -- Objects are a bit smaller as their distance from the observer increases.
+    -- It means that an object along the line of sight are shorter than it's dimesion across the line of sight.
+- Orthographic
+    -- It means reperesenting a three-dimensional object into two-dimensional object.
+
+Physics:
+- Rigidbody component
+    - Rigidbody dynamics
+        -- The movement and interaction of solid and inflexible Objects
+        -- The popular kind of effect simulated in games.
+
+OnCollisionEnter()
+- collision class
+    - is called when this collider/rigibody has begun touching another rigidbody/collider.
+        -- it passed the collision class 
+            - it contains information about contact points, impact velocity. 
+
+Prefabs
+- Special type of component that allows fully configured GameObject to save in the project.
+
+Game Manager
+- Script that manages the states of the game.
+Flow:
+Start > Play > Pause > Die > Game Over (game states)
+
+UI
+- Toolkit for developing user interfaces for games and applications. It is a GameObject-based UI system.
+
+Canvas 
+- Area where UI elements should be inside. 
+
+Event System
+- Used to determine things such as mouse input such as button.
+
+Panel 
+- Section that you can place UI elements. This is the core and required by unity to run UI.
+
+Game State Machines
+- 
